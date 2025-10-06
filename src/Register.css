@@ -1,0 +1,91 @@
+.register-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+  }
+  
+  .register-lottie-left {
+    flex-shrink: 0;
+  }
+  
+  .register-container {
+    background: #ffffff;
+    padding: 35px 45px;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-size: 24px;
+  }
+  
+  .register-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .register-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #34495e;
+  }
+  
+  .register-form-group input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fafafa;
+    transition: border-color 0.3s;
+  }
+  
+  .register-form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .register-error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .register-lottie-bottom {
+    margin-top: 25px;
+  }
+ 
+ 
+  
+  
