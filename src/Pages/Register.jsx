@@ -27,7 +27,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:4000/api/v1/auth/register', {
+      const response = await axios.post('https://food-app-server-wwa1.onrender.com/api/v1/auth/register', {
         email,
         username,
         password,
