@@ -23,7 +23,7 @@ const ForgotPassword = () => {
     try {
       setLoading(true);
       const response = await axios.post(
-        'http://localhost:4000/api/v1/auth/forgot-password',
+        'https://food-app-server-wwa1.onrender.com/api/v1/auth/forgot-password',
         { email },
         { headers: { 'Content-Type': 'application/json' } }
       );
